@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+  background-color: #1c1f1d;
+  color: #dcdcdc;
+  font-family: 'Courier New', Courier, monospace;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #4a5343;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  color: #ff9800;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 0;
+}
+
+.cartBtn {
+  background-color: #384232;
+  color: #8bc34a;
+  border: 1px solid #8bc34a;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #8bc34a;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #262b27;
+  border: 1px solid #4a5343;
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  margin: 0 0 10px 0;
+  color: #ff9800;
+}
+
+.cardDesc {
+  font-size: 14px;
+  color: #aaaaaa;
+  flex-grow: 1;
+}
+
+.cardPrice {
+  font-weight: bold;
+  color: #8bc34a;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.buyBtn {
+  background-color: #ff9800;
+  color: #000;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.counterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c1f1d;
+  border-radius: 4px;
+  border: 1px solid #ff9800;
+  padding: 2px;
+}
+
+.countBtn {
+  background-color: #ff9800;
+  color: #000;
+  border: none;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.countValue {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff9800;
+}
+
+.backBtn {
+  background-color: transparent;
+  color: #aaaaaa;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.cartContent {
+  background-color: #262b27;
+  border: 1px solid #4a5343;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.itemList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.itemRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px dashed #4a5343;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-size: 20px;
+  color: #8bc34a;
+}
+
+.checkoutBtn {
+  background-color: #8bc34a;
+  color: #000;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.receipt {
+  margin-top: 25px;
+  background-color: #1c1f1d;
+  border: 2px dashed #ff9800;
+  padding: 20px;
+  border-radius: 4px;
+  line-height: 1.6;
+}
+
+.hr {
+  border: none;
+  border-top: 1px dashed #ff9800;
+  margin: 15px 0;
+}
+
+.receiptFooter {
+  text-align: center;
+  color: #8bc34a;
+}
+
+.emptyText {
+  color: #ff5722;
+}
